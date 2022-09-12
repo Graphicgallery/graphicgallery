@@ -180,12 +180,12 @@ h6 {
 #preloader:before,
 #preloader:after {
   content: "";
-  background-color: var(--color-secondary);
+  background-color: #b2c8df;
   position: absolute;
   inset: 0;
   width: 50%;
   height: 100%;
-  transition: all 0.3s ease 0s;
+  transition: all 0.1s ease 0s;
   z-index: -1;
 }
 
@@ -206,7 +206,7 @@ h6 {
 #preloader .line:before {
   content: "";
   position: absolute;
-  background-color: #000;
+  background-color: #f8f9d7;
   left: 0;
   top: 50%;
   width: 1px;
@@ -219,7 +219,7 @@ h6 {
 #preloader .line:after {
   content: "";
   position: absolute;
-  background-color: #999;
+  background-color: #b2c8df;
   left: 0;
   top: 0;
   width: 1px;
@@ -227,8 +227,8 @@ h6 {
   transform: translateY(-100%);
   -webkit-animation: linemove 1200ms linear 0s infinite;
   animation: linemove 1200ms linear 0s infinite;
-  -webkit-animation-delay: 2000ms;
-  animation-delay: 2000ms;
+  -webkit-animation-delay: 1200ms;
+  animation-delay: 1200ms;
 }
 
 #preloader.loaded .line {
